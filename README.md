@@ -11,6 +11,10 @@ for the NSMenu. I'm not 100% certain this is how the Dock does it,
 (IOW, I can't find it actually set this property), but it's a legit
 technique anyway.
 
+
+![Screenshot](https://github.com/swillits/NSMenu-Dark/raw/master/Screenshot.png)
+
+
 Usage
 =============
 Using NSMenu+Dark.h, all you need to do is:
