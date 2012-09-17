@@ -14,6 +14,7 @@ technique anyway.
 Usage
 =============
 Using NSMenu+Dark.h, all you need to do is:
+
 	menu.dark = YES;
 
 
