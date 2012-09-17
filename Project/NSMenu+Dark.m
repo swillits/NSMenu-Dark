@@ -13,13 +13,14 @@
 
 // This method is not public in 64-bit, but still exists within
 // the Carbon framework so we just declare it exists and link to Carbon.
+#if __LP64__
 extern void SetMenuItemProperty(MenuRef         menu,
 								MenuItemIndex   item,
 								OSType          propertyCreator,
 								OSType          propertyTag,
 								ByteCount       propertySize,
 								const void *    propertyData);
-
+#endif
 
 // Menus have a private implementation object, which is "always" a
 // NSCarbonMenuImpl instance.
